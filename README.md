@@ -21,13 +21,19 @@ As configurações podem ser encontradas no arquivo:
 
 **src/main/resources/application.properties.**
 
-## Implantação
+## Implantação do Banco de Dados
+
+1 - Abra o seu SGBD MySQL e acesse uma instânica Local
+
+2 - Abra o arquivo **código.sql** disponibilizado aqui no Git HUb, copie todo o código, cole no seu SGBD e execute cada um dos comandos para a criação das informações do banco.
+
+## Implantação do Sistema
 
 Para implantar o sistema, siga os seguintes passos:
 
 1 - Faça o clone do repositório para o seu computador:
 
-    git clone https://github.com/seu-usuario/meu-projeto.git
+    git clone https://github.com/seu-usuario/meu-projeto.git](https://github.com/FoxRibeiro/Desafio-Beesby---CadastroNFE.git
 
 2 - Navegue até o diretório do projeto e execute o seguinte comando para compilar o projeto:
 
@@ -35,13 +41,15 @@ Para implantar o sistema, siga os seguintes passos:
     
 3 - Após a conclusão da compilação, execute o seguinte comando para iniciar o sistema:
 
-    java -jar target/meu-projeto-0.0.1-SNAPSHOT.jar
+    java -jar target/CadastroNFE-0.0.1-SNAPSHOT.jar
     
 Certifique-se de substituir o nome do arquivo JAR pelo nome do seu arquivo JAR gerado pela compilação.
 
 4 - Acesse o sistema pelo seguinte endereço no seu navegador:
 
     http://localhost:8080/NFE
+   
+OBS: Você também pode abrir uma IDE do JAVA, abrir o projeto e compilar. 
 
 ## API Endpoints
 
