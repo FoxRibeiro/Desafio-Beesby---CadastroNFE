@@ -1,4 +1,4 @@
-# Desafio Beesby - CadastroNFE
+# Desafio - CadastroNFE
 Este projeto foi criado para demonstrar a implantação de um CRUD de Cadastro de NFE com JAVA, SPRING BOOT e MySQL.
 
 ## Requisitos:
